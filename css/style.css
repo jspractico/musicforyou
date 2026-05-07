@@ -1,0 +1,296 @@
+#main {
+    position: absolute;
+    left: 4px;
+    width: 300px;
+    height: 700px;
+}
+
+#up {
+    position:absolute;
+    top: 0px;
+    left: 100px;
+    width: 500px;
+    height: 90px;
+}
+
+#left {
+    top: 0px;
+    left: 0px;
+    position:absolute;
+    width: 90px;
+    height: 500px;
+}
+/*
+#tableimage {
+    position:absolute;
+    top: 0px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../resources/logo.png")
+      
+}
+*/
+#right {
+    position:absolute;
+    top: 0px;
+    left: 410px;
+    width: 90px;
+    height: 500px;
+}
+
+#down {
+    position: absolute;
+    top: 570px;
+    left: 4px;
+    width: 500px;
+    height: 90px;
+}
+
+.titleleft {
+    border: 1px black solid;
+    padding-top: 10px;    
+    background-color: lightcoral;
+    font-size: 16px;
+    margin: 1px;
+    height: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.titleright {
+    border: 1px black solid;
+    padding-top: 10px;    
+    background-color: lightcoral;
+    font-size: 16px;
+    margin: 1px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    align-self: center;
+    text-align: center;
+}
+
+.titlerightS {
+    border: 1px black solid;
+    padding-top: 2px;    
+    background-color: lightcoral;
+    font-size: 16px;
+    margin: 1px;
+    height: 25px;
+    margin-top: 1px;
+    align-self: center;
+    text-align: center;
+}
+
+.titlerightSS {
+    border: 1px black solid;
+    padding-top: 2px;    
+    background-color: lightcoral;
+    font-size: 16px;
+    margin: 1px;
+    height: 25px;
+    margin-top: 5px;
+    align-self: center;
+    text-align: center;
+}
+
+.titleright2 {
+    
+    display:inline-block;
+    font-size: 13px;
+    width: 43px;
+    background-color: lightblue;    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.titleright3 {
+    
+    display:inline-block;
+    font-size: 13px;
+    width: 88px;
+    background-color: lightblue;    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.titledown {
+    border: 1px black solid;
+    padding-top: 2px;    
+    background-color: lightcoral;
+    font-size: 16px;
+    margin: 3px;
+    height: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+.title2 {
+    background-color: lightblue;    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.btn {
+    width: 90px;
+    margin-top: 1px;     
+}
+
+.btnN {
+    width: 90px;
+    margin-top: 1px;
+    padding: 0;     
+}
+
+.btnC {
+    width: 65px;
+    margin-top: 1px; 
+    text-align: center;
+        
+}
+.btnE {
+    width: 90px;
+    margin-top: 1px;
+        
+}
+
+.btnsmall {
+    width: 43px;
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+.btnsmallP {
+    width: 43px;
+    margin-top: 1px;
+    font-size: 12px;
+    padding: 0;
+}
+
+
+.btnsmalldown1 {
+    width: 43px;
+    margin-top: 1px;
+    margin-right: 11px;
+    font-size: 14px;
+}
+
+.btnsmalldown2 {
+    width: 55px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.btnsmalldown2S {
+    width: 60px;
+    margin-top: 1px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.btnsmalldown2X {
+    width: 69px;
+    margin-top: 1px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.btnsmalldown2CC {
+    width: 60px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.btnsmalldown2C {
+    width: 80px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.btnsmalldown2N {
+    width: 80px;
+    margin-top: 1px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.btnsmalldown2E {
+    width: 60px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.btnsmalldown3 {
+    width: 90px;
+    margin-left: 110px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.btnsmalldown4 {
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+/* ... (tus estilos anteriores) ... */
+
+/* Estilos del Modal (Pop-up) */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 9999; /* Por encima de todo */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9); /* Fondo negro con opacidad */
+    padding-top: 50px;
+}
+
+/* Imagen dentro del modal */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 600px; /* Tamaño máximo del rango en el pop-up */
+    border: 3px solid #c5a059; /* Un toque dorado estilo GG */
+    border-radius: 10px;
+    animation: zoom 0.3s; /* Efecto de entrada */
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* Botón de cerrar */
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: lightcoral;
+}
+
+/* Ajuste para móviles: que la imagen ocupe casi toda la pantalla */
+@media (max-width: 600px) {
+    .modal-content {
+        width: 95%;
+    }
+}
