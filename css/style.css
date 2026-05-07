@@ -1,8 +1,8 @@
 #main {
     position: absolute;
     left: 10px;
-    width: 700px;
-    height: 700px;
+    width: 740px;
+    height: 1000px;
 }
 
 #up {
@@ -17,7 +17,7 @@
     top: 0px;
     left: 0px;
     position:absolute;
-    width: 150px;
+    width: 250px;
     height: 700px;
 }
 /*
@@ -37,16 +37,16 @@
 #right {
     position:absolute;
     top: 0px;
-    left: 410px;
-    width: 150px;
+    left: 400px;
+    width: 250px;
     height: 700px;
 }
 
 #down {
     position: absolute;
-    top: 750px;
+    top: 850px;
     left: 4px;
-    width: 570px;
+    width: 720px;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@
     border: 1px black solid;
     padding-top: 10px;    
     background-color: lightcoral;
-    font-size: 16px;
+    font-size: 22px;
     margin: 1px;
     height: 25px;
     align-self: center;
@@ -65,7 +65,7 @@
     border: 1px black solid;
     padding-top: 10px;    
     background-color: lightcoral;
-    font-size: 16px;
+    font-size: 22px;
     margin: 1px;
     height: 30px;
     margin-top: 3px;
@@ -78,7 +78,7 @@
     border: 1px black solid;
     padding-top: 2px;    
     background-color: lightcoral;
-    font-size: 16px;
+    font-size: 22px;
     margin: 1px;
     height: 25px;
     margin-top: 1px;
@@ -90,7 +90,7 @@
     border: 1px black solid;
     padding-top: 2px;    
     background-color: lightcoral;
-    font-size: 16px;
+    font-size: 22px;
     margin: 1px;
     height: 25px;
     margin-top: 5px;
@@ -101,8 +101,8 @@
 .titleright2 {
     
     display:inline-block;
-    font-size: 16px;
-    width: 55px;
+    font-size: 22px;
+    width: 120px;
     background-color: lightblue;    
     margin-top: 3px;
     margin-bottom: 3px;
@@ -112,8 +112,8 @@
 .titleright3 {
     
     display:inline-block;
-    font-size: 16px;
-    width: 100px;
+    font-size: 20px;
+    width: 200px;
     background-color: lightblue;    
     margin-top: 3px;
     margin-bottom: 3px;
@@ -124,7 +124,7 @@
     border: 1px black solid;
     padding-top: 2px;    
     background-color: lightcoral;
-    font-size: 16px;
+    font-size: 22px;
     margin: 3px;
     height: 20px;
     align-self: center;
@@ -139,9 +139,9 @@
 }
 
 .btn {
-    width: 114px;
+    width: 200px;
     margin-top: 1px;
-    font-size: 20px;   
+    font-size: 27px;   
 }
 
 .btnN {
@@ -163,89 +163,89 @@
 }
 
 .btnsmall {
-    width: 70px;
+    width: 120px;
     margin-top: 1px;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .btnsmallP {
-    width: 70px;
+    width: 120px;
     margin-top: 1px;
-    font-size: 20px;
+    font-size: 27px;
     padding: 0;
 }
 
 
 .btnsmalldown1 {
-    width: 55px;
+    width: 120px;
     margin-top: 1px;
     margin-right: 11px;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .btnsmalldown2 {
-    width: 55px;
+    width: 82px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .btnsmalldown2S {
-    width: 60px;
+    width: 100px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
     padding: 0;
 }
 
 .btnsmalldown2X {
-    width: 77px;
+    width: 90px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
     padding: 0;
 }
 
 .btn2 {
-    width: 98px;
+    width: 145px;
     margin-top: 1px;
-    font-size: 16px;   
+    font-size: 22px;   
 }
 
 .btnsmalldown2CC {
     width: 60px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .btnsmalldown2C {
     width: 80px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .btnsmalldown2N {
     width: 80px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
     padding: 0;
 }
 
 .btnsmalldown2E {
     width: 60px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .btnsmalldown3 {
     width: 90px;
     margin-left: 110px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .btnsmalldown4 {
     width: 90px;
     margin-left: 15px;
     margin-top: 1px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 /* ... (tus estilos anteriores) ... */
@@ -269,7 +269,7 @@
     margin: auto;
     display: block;
     width: 90%;
-    max-width: 600px; /* Tamaño máximo del rango en el pop-up */
+    max-width: 720px; /* Tamaño máximo del rango en el pop-up */
     border: 3px solid #c5a059; /* Un toque dorado estilo GG */
     border-radius: 10px;
     animation: zoom 0.3s; /* Efecto de entrada */
@@ -296,7 +296,7 @@
 }
 
 /* Ajuste para móviles: que la imagen ocupe casi toda la pantalla */
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .modal-content {
         width: 95%;
     }
