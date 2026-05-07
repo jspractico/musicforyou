@@ -17,10 +17,10 @@
     top: 0px;
     left: 0px;
     position:absolute;
-    width: 90px;
-    height: 500px;
+    width: 150px;
+    height: 700px;
 }
-
+/*
 #tableimage {
     position:absolute;
     top: 0px;
@@ -33,21 +33,21 @@
     background-image: url("../resources/logo.png")
       
 }
-
+*/
 #right {
     position:absolute;
     top: 0px;
-    left: 610px;
-    width: 90px;
-    height: 500px;
+    left: 410px;
+    width: 150px;
+    height: 700px;
 }
 
 #down {
     position: absolute;
-    top: 510px;
-    left: 100px;
-    width: 500px;
-    height: 90px;
+    top: 750px;
+    left: 4px;
+    width: 570px;
+    text-align: center;
 }
 
 .titleleft {
@@ -101,8 +101,8 @@
 .titleright2 {
     
     display:inline-block;
-    font-size: 13px;
-    width: 43px;
+    font-size: 16px;
+    width: 55px;
     background-color: lightblue;    
     margin-top: 3px;
     margin-bottom: 3px;
@@ -112,8 +112,8 @@
 .titleright3 {
     
     display:inline-block;
-    font-size: 13px;
-    width: 88px;
+    font-size: 16px;
+    width: 100px;
     background-color: lightblue;    
     margin-top: 3px;
     margin-bottom: 3px;
@@ -133,14 +133,15 @@
 
 .title2 {
     background-color: lightblue;    
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
 .btn {
-    width: 90px;
-    margin-top: 1px;     
+    width: 114px;
+    margin-top: 1px;
+    font-size: 20px;   
 }
 
 .btnN {
@@ -162,83 +163,89 @@
 }
 
 .btnsmall {
-    width: 43px;
+    width: 70px;
     margin-top: 1px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .btnsmallP {
-    width: 43px;
+    width: 70px;
     margin-top: 1px;
-    font-size: 12px;
+    font-size: 20px;
     padding: 0;
 }
 
 
 .btnsmalldown1 {
-    width: 43px;
+    width: 55px;
     margin-top: 1px;
     margin-right: 11px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .btnsmalldown2 {
     width: 55px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btnsmalldown2S {
     width: 60px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
 }
 
 .btnsmalldown2X {
-    width: 69px;
+    width: 77px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
+}
+
+.btn2 {
+    width: 98px;
+    margin-top: 1px;
+    font-size: 16px;   
 }
 
 .btnsmalldown2CC {
     width: 60px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btnsmalldown2C {
     width: 80px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btnsmalldown2N {
     width: 80px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
 }
 
 .btnsmalldown2E {
     width: 60px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btnsmalldown3 {
     width: 90px;
     margin-left: 110px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btnsmalldown4 {
     width: 90px;
     margin-left: 15px;
     margin-top: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* ... (tus estilos anteriores) ... */
