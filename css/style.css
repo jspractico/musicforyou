@@ -44,7 +44,7 @@
 
 #down {
     position: absolute;
-    top: 850px;
+    top: 950px;
     left: 4px;
     width: 720px;
     text-align: center;
@@ -112,7 +112,7 @@
 .titleright3 {
     
     display:inline-block;
-    font-size: 20px;
+    font-size: 22px;
     width: 200px;
     background-color: lightblue;    
     margin-top: 3px;
@@ -140,7 +140,7 @@
 
 .btn {
     width: 200px;
-    margin-top: 1px;
+    margin-top: 7px;
     font-size: 27px;   
 }
 
@@ -164,13 +164,13 @@
 
 .btnsmall {
     width: 120px;
-    margin-top: 1px;
+    margin-top: 7px;
     font-size: 27px;
 }
 
 .btnsmallP {
     width: 120px;
-    margin-top: 1px;
+    margin-top: 7px;
     font-size: 27px;
     padding: 0;
 }
@@ -197,7 +197,7 @@
 }
 
 .btnsmalldown2X {
-    width: 90px;
+    width: 97px;
     margin-top: 1px;
     font-size: 22px;
     padding: 0;
