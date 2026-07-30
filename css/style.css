@@ -301,3 +301,10 @@
         width: 95%;
     }
 }
+
+/* The period indicates this is a class selector */
+.bu-color {
+  color: black;
+  font-weight: bold;
+  background-color: #44C43B;
+}
