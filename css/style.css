@@ -304,5 +304,8 @@
 
 /* The period indicates this is a class selector */
 .bu-color {
-  background-color: #44C43B;
+  background-color: #80D9A7;
+}
+.vs-bu-color {
+  background-color: #CBEFC8;
 }
