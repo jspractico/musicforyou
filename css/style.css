@@ -139,9 +139,9 @@
 }
 
 .btn {
-    width: 200px;
+    width: 148px;
     margin-top: 7px;
-    font-size: 27px;   
+    font-size: 25px;   
 }
 
 .btnN {
@@ -246,6 +246,15 @@
     margin-left: 15px;
     margin-top: 1px;
     font-size: 22px;
+}
+
+.btnbajo {
+    font-size: 27px;
+}
+
+.btnlargo {
+    width: 300px;
+    font-size: 30px;
 }
 
 /* ... (tus estilos anteriores) ... */
