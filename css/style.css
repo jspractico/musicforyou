@@ -1,7 +1,7 @@
 #main {
     position: absolute;
     left: 10px;
-    width: 740px;
+    width: 750px;
     height: 1000px;
 }
 
@@ -17,7 +17,7 @@
     top: 0px;
     left: 0px;
     position:absolute;
-    width: 300px;
+    width: 345px;
     height: 700px;
 }
 /*
@@ -38,7 +38,7 @@
     position:absolute;
     top: 0px;
     left: 400px;
-    width: 300px;
+    width: 345px;
     height: 700px;
 }
 
@@ -163,7 +163,7 @@
 }
 
 .btnsmall {
-    width: 145px;
+    width: 170px;
     margin-top: 4px;
     font-size: 30px;
 }
