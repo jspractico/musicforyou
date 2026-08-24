@@ -15,7 +15,7 @@ function getItDone(event) {
 
     if (btn.dataset.img) {
         // Marcamos el botón como activo
-        btn.style.backgroundColor = "lightgreen";
+        btn.style.backgroundColor = "orange";
         
         // Configuramos y mostramos el Modal
         modal.style.display = "block";

@@ -54,9 +54,9 @@
     border: 1px black solid;
     padding-top: 10px;    
     background-color: rgb(245, 194, 194);
-    font-size: 22px;
+    font-size: 30px;
     margin: 1px;
-    height: 25px;
+    height: 35px;
     align-self: center;
     text-align: center;
 }
@@ -65,7 +65,7 @@
     border: 1px black solid;
     padding-top: 10px;    
     background-color: rgb(245, 194, 194);
-    font-size: 22px;
+    font-size: 30px;
     margin: 1px;
     height: 30px;
     margin-top: 3px;
